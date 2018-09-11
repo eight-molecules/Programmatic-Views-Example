@@ -9,10 +9,15 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    var profileView: ProfileView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        self.profileView = ProfileView(frame: UIScreen.main.bounds)
+        self.view.addSubview(self.profileView)
+        
+        self.profileView.autoPinEdgesToSuperviewEdges(with: UIEdgeInsets.zero)
     }
 
     override func didReceiveMemoryWarning() {
