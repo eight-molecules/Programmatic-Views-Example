@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF8130C921483B200075544F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8130C821483B200075544F /* AppDelegate.swift */; };
+		EF8130CB21483B200075544F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8130CA21483B200075544F /* ViewController.swift */; };
+		EF8130CE21483B200075544F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF8130CC21483B200075544F /* Main.storyboard */; };
+		EF8130D021483B230075544F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF8130CF21483B230075544F /* Assets.xcassets */; };
+		EF8130D321483B230075544F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF8130D121483B230075544F /* LaunchScreen.storyboard */; };
+		EF8130DE21483B230075544F /* Programmatic_View_ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8130DD21483B230075544F /* Programmatic_View_ExampleTests.swift */; };
+		EF8130E921483B230075544F /* Programmatic_View_ExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8130E821483B230075544F /* Programmatic_View_ExampleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF8130DA21483B230075544F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF8130BD21483B200075544F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF8130C421483B200075544F;
+			remoteInfo = "Programmatic View Example";
+		};
+		EF8130E521483B230075544F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF8130BD21483B200075544F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF8130C421483B200075544F;
+			remoteInfo = "Programmatic View Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF8130C521483B200075544F /* Programmatic View Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Programmatic View Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF8130C821483B200075544F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF8130CA21483B200075544F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF8130CD21483B200075544F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF8130CF21483B230075544F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF8130D221483B230075544F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF8130D421483B230075544F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF8130D921483B230075544F /* Programmatic View ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Programmatic View ExampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF8130DD21483B230075544F /* Programmatic_View_ExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Programmatic_View_ExampleTests.swift; sourceTree = "<group>"; };
+		EF8130DF21483B230075544F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF8130E421483B230075544F /* Programmatic View ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Programmatic View ExampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF8130E821483B230075544F /* Programmatic_View_ExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Programmatic_View_ExampleUITests.swift; sourceTree = "<group>"; };
+		EF8130EA21483B230075544F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF8130C221483B200075544F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF8130D621483B230075544F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF8130E121483B230075544F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF8130BC21483B200075544F = {
+			isa = PBXGroup;
+			children = (
+				EF8130C721483B200075544F /* Programmatic View Example */,
+				EF8130DC21483B230075544F /* Programmatic View ExampleTests */,
+				EF8130E721483B230075544F /* Programmatic View ExampleUITests */,
+				EF8130C621483B200075544F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF8130C621483B200075544F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF8130C521483B200075544F /* Programmatic View Example.app */,
+				EF8130D921483B230075544F /* Programmatic View ExampleTests.xctest */,
+				EF8130E421483B230075544F /* Programmatic View ExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF8130C721483B200075544F /* Programmatic View Example */ = {
+			isa = PBXGroup;
+			children = (
+				EF8130C821483B200075544F /* AppDelegate.swift */,
+				EF8130CA21483B200075544F /* ViewController.swift */,
+				EF8130CC21483B200075544F /* Main.storyboard */,
+				EF8130CF21483B230075544F /* Assets.xcassets */,
+				EF8130D121483B230075544F /* LaunchScreen.storyboard */,
+				EF8130D421483B230075544F /* Info.plist */,
+			);
+			path = "Programmatic View Example";
+			sourceTree = "<group>";
+		};
+		EF8130DC21483B230075544F /* Programmatic View ExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF8130DD21483B230075544F /* Programmatic_View_ExampleTests.swift */,
+				EF8130DF21483B230075544F /* Info.plist */,
+			);
+			path = "Programmatic View ExampleTests";
+			sourceTree = "<group>";
+		};
+		EF8130E721483B230075544F /* Programmatic View ExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF8130E821483B230075544F /* Programmatic_View_ExampleUITests.swift */,
+				EF8130EA21483B230075544F /* Info.plist */,
+			);
+			path = "Programmatic View ExampleUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF8130C421483B200075544F /* Programmatic View Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF8130ED21483B230075544F /* Build configuration list for PBXNativeTarget "Programmatic View Example" */;
+			buildPhases = (
+				EF8130C121483B200075544F /* Sources */,
+				EF8130C221483B200075544F /* Frameworks */,
+				EF8130C321483B200075544F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Programmatic View Example";
+			productName = "Programmatic View Example";
+			productReference = EF8130C521483B200075544F /* Programmatic View Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF8130D821483B230075544F /* Programmatic View ExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF8130F021483B230075544F /* Build configuration list for PBXNativeTarget "Programmatic View ExampleTests" */;
+			buildPhases = (
+				EF8130D521483B230075544F /* Sources */,
+				EF8130D621483B230075544F /* Frameworks */,
+				EF8130D721483B230075544F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF8130DB21483B230075544F /* PBXTargetDependency */,
+			);
+			name = "Programmatic View ExampleTests";
+			productName = "Programmatic View ExampleTests";
+			productReference = EF8130D921483B230075544F /* Programmatic View ExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF8130E321483B230075544F /* Programmatic View ExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF8130F321483B230075544F /* Build configuration list for PBXNativeTarget "Programmatic View ExampleUITests" */;
+			buildPhases = (
+				EF8130E021483B230075544F /* Sources */,
+				EF8130E121483B230075544F /* Frameworks */,
+				EF8130E221483B230075544F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF8130E621483B230075544F /* PBXTargetDependency */,
+			);
+			name = "Programmatic View ExampleUITests";
+			productName = "Programmatic View ExampleUITests";
+			productReference = EF8130E421483B230075544F /* Programmatic View ExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF8130BD21483B200075544F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Grant Elliott";
+				TargetAttributes = {
+					EF8130C421483B200075544F = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					EF8130D821483B230075544F = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = EF8130C421483B200075544F;
+					};
+					EF8130E321483B230075544F = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = EF8130C421483B200075544F;
+					};
+				};
+			};
+			buildConfigurationList = EF8130C021483B200075544F /* Build configuration list for PBXProject "Programmatic View Example" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF8130BC21483B200075544F;
+			productRefGroup = EF8130C621483B200075544F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF8130C421483B200075544F /* Programmatic View Example */,
+				EF8130D821483B230075544F /* Programmatic View ExampleTests */,
+				EF8130E321483B230075544F /* Programmatic View ExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF8130C321483B200075544F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF8130D321483B230075544F /* LaunchScreen.storyboard in Resources */,
+				EF8130D021483B230075544F /* Assets.xcassets in Resources */,
+				EF8130CE21483B200075544F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF8130D721483B230075544F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF8130E221483B230075544F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF8130C121483B200075544F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF8130CB21483B200075544F /* ViewController.swift in Sources */,
+				EF8130C921483B200075544F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF8130D521483B230075544F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF8130DE21483B230075544F /* Programmatic_View_ExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF8130E021483B230075544F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF8130E921483B230075544F /* Programmatic_View_ExampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF8130DB21483B230075544F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF8130C421483B200075544F /* Programmatic View Example */;
+			targetProxy = EF8130DA21483B230075544F /* PBXContainerItemProxy */;
+		};
+		EF8130E621483B230075544F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF8130C421483B200075544F /* Programmatic View Example */;
+			targetProxy = EF8130E521483B230075544F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF8130CC21483B200075544F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF8130CD21483B200075544F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF8130D121483B230075544F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF8130D221483B230075544F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF8130EB21483B230075544F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF8130EC21483B230075544F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF8130EE21483B230075544F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Programmatic View Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Test-Org.Programmatic-View-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF8130EF21483B230075544F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Programmatic View Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Test-Org.Programmatic-View-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EF8130F121483B230075544F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Programmatic View ExampleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Test-Org.Programmatic-View-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Programmatic View Example.app/Programmatic View Example";
+			};
+			name = Debug;
+		};
+		EF8130F221483B230075544F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Programmatic View ExampleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Test-Org.Programmatic-View-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Programmatic View Example.app/Programmatic View Example";
+			};
+			name = Release;
+		};
+		EF8130F421483B230075544F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Programmatic View ExampleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Test-Org.Programmatic-View-ExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Programmatic View Example";
+			};
+			name = Debug;
+		};
+		EF8130F521483B230075544F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Programmatic View ExampleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Test-Org.Programmatic-View-ExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Programmatic View Example";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF8130C021483B200075544F /* Build configuration list for PBXProject "Programmatic View Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF8130EB21483B230075544F /* Debug */,
+				EF8130EC21483B230075544F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF8130ED21483B230075544F /* Build configuration list for PBXNativeTarget "Programmatic View Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF8130EE21483B230075544F /* Debug */,
+				EF8130EF21483B230075544F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF8130F021483B230075544F /* Build configuration list for PBXNativeTarget "Programmatic View ExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF8130F121483B230075544F /* Debug */,
+				EF8130F221483B230075544F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF8130F321483B230075544F /* Build configuration list for PBXNativeTarget "Programmatic View ExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF8130F421483B230075544F /* Debug */,
+				EF8130F521483B230075544F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF8130BD21483B200075544F /* Project object */;
+}
