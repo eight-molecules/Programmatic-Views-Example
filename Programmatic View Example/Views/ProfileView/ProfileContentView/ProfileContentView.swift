@@ -11,9 +11,6 @@ import UIKit
 class ProfileContentView: UIView {
     var shouldSetupConstraints: Bool = true
     
-    let edgesInset: CGFloat = 10.0
-    let centerOffset: CGFloat = 62.0
-    
     override init(frame: CGRect) {
         super.init(frame: frame)
         
@@ -33,7 +30,6 @@ class ProfileContentView: UIView {
     override func updateConstraints() {
         if (shouldSetupConstraints) {
             let edgesInset: CGFloat = 10.0
-            let centerOffset: CGFloat = 62.0
             
             self.autoPinEdge(toSuperviewEdge: .left, withInset: edgesInset)
         }

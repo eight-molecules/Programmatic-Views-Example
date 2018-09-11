@@ -24,9 +24,6 @@ class BannerView: UIImageView {
     
     override func updateConstraints() {
         if (shouldSetupConstraints) {
-            let edgesInset: CGFloat = 10.0
-            let centerOffset: CGFloat = 62.0
-            
             self.autoPinEdgesToSuperviewEdges(with: UIEdgeInsets.zero, excludingEdge: .bottom)
         }
         

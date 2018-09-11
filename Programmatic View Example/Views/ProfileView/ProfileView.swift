@@ -49,13 +49,4 @@ class ProfileView: UIView {
         
         super.updateConstraints()
     }
-    
-//    private func buildBannerView() -> UIImageView {
-//        let view = UIImageView(frame: CGRect.zero)
-//        view.backgroundColor = .gray
-//
-//        view.autoSetDimension(.height, toSize: UIScreen.main.bounds.width / 3)
-//
-//        return view
-//    }
 }
