@@ -1,10 +1,6 @@
 //
 //  Programmatic_View_ExampleUITests.swift
 //  Programmatic View ExampleUITests
-//
-//  Created by Grant Elliott on 9/11/18.
-//  Copyright © 2018 Grant Elliott. All rights reserved.
-//
 
 import XCTest
 

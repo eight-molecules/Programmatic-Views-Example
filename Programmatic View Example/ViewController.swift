@@ -1,10 +1,6 @@
 //
 //  ViewController.swift
 //  Programmatic View Example
-//
-//  Created by Grant Elliott on 9/11/18.
-//  Copyright © 2018 Grant Elliott. All rights reserved.
-//
 
 import UIKit
 
@@ -17,7 +13,11 @@ class ViewController: UIViewController {
         self.profileView = ProfileView(frame: UIScreen.main.bounds)
         self.view.addSubview(self.profileView)
         
-        self.profileView.autoPinEdgesToSuperviewEdges(with: UIEdgeInsets.zero)
+        self.profileView.translatesAutoresizingMaskIntoConstraints = false
+        self.profileView.topAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.topAnchor).isActive = true
+        self.profileView.bottomAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.bottomAnchor).isActive = true
+        self.profileView.leftAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.leftAnchor).isActive = true
+        self.profileView.rightAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.rightAnchor).isActive = true
     }
 
     override func didReceiveMemoryWarning() {
@@ -26,5 +26,8 @@ class ViewController: UIViewController {
     }
 
 
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
+    }
 }
 

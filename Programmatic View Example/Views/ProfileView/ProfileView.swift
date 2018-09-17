@@ -1,13 +1,8 @@
 //
 //  ProfileView.swift
 //  Programmatic View Example
-//
-//  Created by Grant Elliott on 9/11/18.
-//  Copyright © 2018 Grant Elliott. All rights reserved.
-//
 
 import UIKit
-import PureLayout
 
 class ProfileView: UIView {
     var shouldSetupConstraints = true
@@ -22,31 +17,29 @@ class ProfileView: UIView {
         self.bannerView = BannerView(frame: frame)
         self.addSubview(self.bannerView)
         
+        self.bannerView.translatesAutoresizingMaskIntoConstraints = false
+        self.bannerView.topAnchor.constraint(equalTo: self.topAnchor).isActive = true
+        self.bannerView.heightAnchor.constraint(equalTo: self.heightAnchor, multiplier: 0.33).isActive = true
+        self.bannerView.leftAnchor.constraint(equalTo: self.leftAnchor).isActive = true
+        self.bannerView.rightAnchor.constraint(equalTo: self.rightAnchor).isActive = true
+        
         self.contentView = ProfileContentView(frame: frame)
         self.addSubview(self.contentView)
         
+        self.contentView.translatesAutoresizingMaskIntoConstraints = false
+        self.contentView.leftAnchor.constraint(equalTo: self.leftAnchor, constant: 10.0).isActive = true
+        self.contentView.bottomAnchor.constraint(equalTo: self.bannerView.bottomAnchor, constant: 62.0).isActive = true
+        
         self.segmentedControl = UISegmentedControl(items: ["Tweets", "Media", "Likes"])
         self.addSubview(self.segmentedControl)
+        
+        self.segmentedControl.translatesAutoresizingMaskIntoConstraints = false
+        self.segmentedControl.bottomAnchor.constraint(equalTo: self.bottomAnchor, constant: -10.0).isActive = true
+        self.segmentedControl.leftAnchor.constraint(equalTo: self.leftAnchor, constant: 10.0).isActive = true
+        self.segmentedControl.rightAnchor.constraint(equalTo: self.rightAnchor, constant: -10.0).isActive = true
     }
     
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
-    }
-    
-    override func updateConstraints() {
-        if (shouldSetupConstraints) {
-            let edgesInset: CGFloat = 10.0
-            let centerOffset: CGFloat = 62.0
-            
-            self.contentView.autoPinEdge(.bottom, to: .bottom, of: self.bannerView, withOffset: centerOffset)
-            
-            self.segmentedControl.autoPinEdge(toSuperviewEdge: .bottom, withInset: edgesInset)
-            self.segmentedControl.autoPinEdge(toSuperviewEdge: .left, withInset: edgesInset)
-            self.segmentedControl.autoPinEdge(toSuperviewEdge: .right, withInset: edgesInset)
-            
-            shouldSetupConstraints = false
-        }
-        
-        super.updateConstraints()
     }
 }

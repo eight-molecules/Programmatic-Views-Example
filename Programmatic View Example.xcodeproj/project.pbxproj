@@ -7,14 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		43785C4A4CACAE4F70EEA00E /* Pods_Programmatic_View_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 266D72B9420DBF967321AD9D /* Pods_Programmatic_View_Example.framework */; };
 		EF8130C921483B200075544F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8130C821483B200075544F /* AppDelegate.swift */; };
 		EF8130CB21483B200075544F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8130CA21483B200075544F /* ViewController.swift */; };
 		EF8130D021483B230075544F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF8130CF21483B230075544F /* Assets.xcassets */; };
 		EF8130D321483B230075544F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF8130D121483B230075544F /* LaunchScreen.storyboard */; };
 		EF8130DE21483B230075544F /* Programmatic_View_ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8130DD21483B230075544F /* Programmatic_View_ExampleTests.swift */; };
 		EF8130E921483B230075544F /* Programmatic_View_ExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8130E821483B230075544F /* Programmatic_View_ExampleUITests.swift */; };
-		EF813117214847570075544F /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = EF813116214847570075544F /* Podfile */; };
 		EF813119214847FF0075544F /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF813118214847FF0075544F /* ProfileView.swift */; };
 		EF81311E214858810075544F /* BannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF81311D214858810075544F /* BannerView.swift */; };
 		EF813122214859720075544F /* ProfileContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF813121214859720075544F /* ProfileContentView.swift */; };
@@ -38,9 +36,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		266D72B9420DBF967321AD9D /* Pods_Programmatic_View_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Programmatic_View_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		91258BECC1D562CE7DFC1FF0 /* Pods-Programmatic View Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Programmatic View Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Programmatic View Example/Pods-Programmatic View Example.release.xcconfig"; sourceTree = "<group>"; };
-		D0FE83D509A1636AF0E9E0BF /* Pods-Programmatic View Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Programmatic View Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Programmatic View Example/Pods-Programmatic View Example.debug.xcconfig"; sourceTree = "<group>"; };
 		EF8130C521483B200075544F /* Programmatic View Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Programmatic View Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF8130C821483B200075544F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EF8130CA21483B200075544F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -53,7 +48,6 @@
 		EF8130E421483B230075544F /* Programmatic View ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Programmatic View ExampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF8130E821483B230075544F /* Programmatic_View_ExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Programmatic_View_ExampleUITests.swift; sourceTree = "<group>"; };
 		EF8130EA21483B230075544F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EF813116214847570075544F /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		EF813118214847FF0075544F /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		EF81311D214858810075544F /* BannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerView.swift; sourceTree = "<group>"; };
 		EF813121214859720075544F /* ProfileContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileContentView.swift; sourceTree = "<group>"; };
@@ -64,7 +58,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43785C4A4CACAE4F70EEA00E /* Pods_Programmatic_View_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,33 +78,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5E2E1E1580B82D277A1F94D2 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				D0FE83D509A1636AF0E9E0BF /* Pods-Programmatic View Example.debug.xcconfig */,
-				91258BECC1D562CE7DFC1FF0 /* Pods-Programmatic View Example.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		CE15BE90E9A1B28C5C0FE01F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				266D72B9420DBF967321AD9D /* Pods_Programmatic_View_Example.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		EF8130BC21483B200075544F = {
 			isa = PBXGroup;
 			children = (
-				EF813116214847570075544F /* Podfile */,
 				EF8130C721483B200075544F /* Programmatic View Example */,
 				EF8130DC21483B230075544F /* Programmatic View ExampleTests */,
 				EF8130E721483B230075544F /* Programmatic View ExampleUITests */,
 				EF8130C621483B200075544F /* Products */,
-				5E2E1E1580B82D277A1F94D2 /* Pods */,
-				CE15BE90E9A1B28C5C0FE01F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -197,11 +170,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EF8130ED21483B230075544F /* Build configuration list for PBXNativeTarget "Programmatic View Example" */;
 			buildPhases = (
-				62BFE3D7E753563296204C97 /* [CP] Check Pods Manifest.lock */,
 				EF8130C121483B200075544F /* Sources */,
 				EF8130C221483B200075544F /* Frameworks */,
 				EF8130C321483B200075544F /* Resources */,
-				5BF74FA8C421E4CFE6E10C53 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -298,7 +269,6 @@
 			files = (
 				EF8130D321483B230075544F /* LaunchScreen.storyboard in Resources */,
 				EF8130D021483B230075544F /* Assets.xcassets in Resources */,
-				EF813117214847570075544F /* Podfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,45 +287,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		5BF74FA8C421E4CFE6E10C53 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Programmatic View Example/Pods-Programmatic View Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/PureLayout/PureLayout.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PureLayout.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Programmatic View Example/Pods-Programmatic View Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		62BFE3D7E753563296204C97 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Programmatic View Example-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EF8130C121483B200075544F /* Sources */ = {
@@ -529,7 +460,6 @@
 		};
 		EF8130EE21483B230075544F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D0FE83D509A1636AF0E9E0BF /* Pods-Programmatic View Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -547,7 +477,6 @@
 		};
 		EF8130EF21483B230075544F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 91258BECC1D562CE7DFC1FF0 /* Pods-Programmatic View Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

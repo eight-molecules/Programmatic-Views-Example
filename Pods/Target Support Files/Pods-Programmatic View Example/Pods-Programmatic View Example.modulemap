@@ -1,6 +1,0 @@
-framework module Pods_Programmatic_View_Example {
-  umbrella header "Pods-Programmatic View Example-umbrella.h"
-
-  export *
-  module * { export * }
-}
